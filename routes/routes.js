@@ -9,4 +9,4 @@ router.get('/', (req, res) => {
 router.post('/add',addDataModule)
 router.get('/get',getModule)
 router.delete('/del/:id',delModule)
-module.exports = router  
+module.exports = router
